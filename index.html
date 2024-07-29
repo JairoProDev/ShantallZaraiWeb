@@ -94,10 +94,6 @@
     </div>
   </header>
 
-
-
-
-
   <main>
     <article>
 
@@ -132,10 +128,6 @@
 
         </div>
       </section>
-
-
-
-
 
       <!-- 
         - #BENEFITS
@@ -295,10 +287,6 @@
         </div>
       </section>
 
-
-
-
-
       <!-- 
         - #CHAPTERS
       -->
@@ -455,10 +443,6 @@
         </div>
       </section>
 
-
-
-
-
       <!-- 
         - #PREVIEW
       -->
@@ -524,10 +508,6 @@
 
         </div>
       </section>
-
-
-
-
 
       <!-- 
         - #PRICING
@@ -646,10 +626,6 @@
         </div>
       </section>
 
-
-
-
-
       <!-- 
         - #AUTHOR
       -->
@@ -678,10 +654,6 @@
 
         </div>
       </section>
-
-
-
-
 
       <!-- 
         - #ACHIEVEMENT
@@ -848,10 +820,6 @@
         </div>
       </section>
 
-
-
-
-
       <!-- 
         - #CONTACT
       -->
@@ -953,10 +921,6 @@
     </article>
   </main>
 
-
-
-
-
   <!-- 
     - #FOOTER
   -->
@@ -1015,10 +979,6 @@
     </div>
   </footer>
 
-
-
-
-
   <!-- 
     - custom js link
   -->
@@ -1029,6 +989,33 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- 
+    - smooth scroll script
+  -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+  <!-- 
+    - dynamic tab content script
+  -->
+  <script>
+    const tabs = document.querySelectorAll('[data-tab-card]');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+      });
+    });
+  </script>
 
 </body>
 

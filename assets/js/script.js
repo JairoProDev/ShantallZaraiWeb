@@ -1,12 +1,10 @@
 'use strict';
 
-
-
 /**
  * add event on element
  */
 
-const addEventOnelem = function (elem, type, callback) {
+const addEventOnElem = function (elem, type, callback) {
   if (elem.length > 1) {
     for (let i = 0; i < elem.length; i++) {
       elem[i].addEventListener(type, callback);
@@ -15,8 +13,6 @@ const addEventOnelem = function (elem, type, callback) {
     elem.addEventListener(type, callback);
   }
 }
-
-
 
 /**
  * toggle navbar
@@ -31,16 +27,14 @@ const toggleNavbar = function () {
   navToggler.classList.toggle("active");
 }
 
-addEventOnelem(navToggler, 'click', toggleNavbar);
+addEventOnElem(navToggler, 'click', toggleNavbar);
 
 const closeNavbar = function () {
   navbar.classList.remove("active");
   navToggler.classList.remove("active");
 }
 
-addEventOnelem(navbarLinks, "click", closeNavbar);
-
-
+addEventOnElem(navbarLinks, "click", closeNavbar);
 
 /**
  * header active on scroll down to 100px
@@ -56,9 +50,7 @@ const activeHeader = function () {
   }
 }
 
-addEventOnelem(window, "scroll", activeHeader);
-
-
+addEventOnElem(window, "scroll", activeHeader);
 
 /**
  * filter tab
@@ -74,4 +66,40 @@ const navigateTab = function () {
   lastTabCard = this;
 }
 
-addEventOnelem(tabCard, "click", navigateTab);
+addEventOnElem(tabCard, "click", navigateTab);
+
+/**
+ * Smooth scroll
+ */
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+
+/**
+ * Intersection Observer for sections
+ */
+
+const sections = document.querySelectorAll('.section');
+
+const observerOptions = {
+  threshold: 0.5
+};
+
+const sectionObserver = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('in-view');
+      observer.unobserve(entry.target);
+    }
+  });
+}, observerOptions);
+
+sections.forEach(section => {
+  sectionObserver.observe(section);
+});
