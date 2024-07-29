@@ -385,7 +385,10 @@ body {
   gap: 60px;
 }
 
-.hero .hero-title { margin-block: 10px 25px; }
+.hero .hero-title { 
+  margin-block: 10px 25px;
+  font-size: 80px
+}
 
 .hero-banner {
   padding-inline-start: 30px;
