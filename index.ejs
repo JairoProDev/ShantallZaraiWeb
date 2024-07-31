@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Shantall Zarai - Especialista en Marketing Digital y Co-Fundadora de Adis</title>
+  <meta name="title" content="Shantall Zarai - CMO at PublicAdis">
+  <meta name="description"
+    content="Marketing, creación de contenido, ciencias de la comunicación, producción audiovisual, diseño gráfico, growth marketing, copywriting, community manager.">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload image
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+    <%- include('Components/header') %>
+
+
+  <main>
+    <article>
+
+        <%- include('Components/hero') %>
+        <%- include('Components/benefits') %>
+        <%- include('Components/chapters') %>
+        <%- include('Components/preview') %>
+        <%- include('Components/pricing') %>
+        <%- include('Components/author') %>
+        <%- include('Components/achievement') %>
+        <%- include('Components/contact') %>
+
+    </article>
+  </main>
+
+  <%- include('Components/footer') %>
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- 
+    - smooth scroll script
+  -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+  <!-- 
+    - dynamic tab content script
+  -->
+  <script>
+    const tabs = document.querySelectorAll('[data-tab-card]');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+      });
+    });
+  </script>
+
+</body>
+
+</html>

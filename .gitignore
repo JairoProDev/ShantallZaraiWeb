@@ -1,0 +1,5 @@
+node_modules
+generate.js
+package-lock.json
+package.json
+components
