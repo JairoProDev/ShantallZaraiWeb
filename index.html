@@ -1,444 +1,870 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
+    <!-- 
     - primary meta tags
   -->
-  <title>Shantall Zarai - Especialista en Marketing Digital y Co-Fundadora de Adis</title>
-  <meta name="title" content="Shantall Zarai - CMO at PublicAdis">
-  <meta name="description"
-    content="Marketing, creación de contenido, ciencias de la comunicación, producción audiovisual, diseño gráfico, growth marketing, copywriting, community manager.">
+    <title>
+      Shantall Zarai - Especialista en Marketing Digital y Co-Fundadora de Adis
+    </title>
+    <meta name="title" content="Shantall Zarai - CMO at PublicAdis" />
+    <meta
+      name="description"
+      content="Marketing, creación de contenido, ciencias de la comunicación, producción audiovisual, diseño gráfico, growth marketing, copywriting, community manager."
+    />
 
-  <!-- 
+    <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
 
-  <!-- 
+    <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!-- 
+    <!-- 
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins:wght@400;500;600&display=swap"
-    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- 
+    <!-- 
     - preload image
   -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- #HEADER-->
 
-  <header class="header" data-header>
-    <div class="container">
+<header class="header" data-header>
+  <div class="container">
+    <a href="#" class="logo">Shantall Zarai</a>
 
-      <a href="#" class="logo">Shantall Zarai</a>
+    <nav class="navbar" data-navbar>
+      <ul class="navbar-list">
+        <li class="navbar-item">
+          <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+        </li>
 
-      <nav class="navbar" data-navbar>
-        <ul class="navbar-list">
+        <li class="navbar-item">
+          <a href="#skills" class="navbar-link" data-nav-link>Habilidades</a>
+        </li>
 
-          <li class="navbar-item">
-            <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
-          </li>
+        <li class="navbar-item">
+          <a href="#experience" class="navbar-link" data-nav-link
+            >Experiencia</a
+          >
+        </li>
 
-          <li class="navbar-item">
-            <a href="#benefits" class="navbar-link" data-nav-link>Temas</a>
-          </li>
+        <li class="navbar-item">
+          <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+        </li>
 
-          <li class="navbar-item">
-            <a href="#chapters" class="navbar-link" data-nav-link>Capítulos</a>
-          </li>
+        <li class="navbar-item">
+          <a href="#achievements" class="navbar-link" data-nav-link>Logros</a>
+        </li>
 
-          <li class="navbar-item">
-            <a href="#pricing" class="navbar-link" data-nav-link>Precios</a>
-          </li>
+        <li class="navbar-item">
+          <a href="#contact" class="navbar-link" data-nav-link>Contacto</a>
+        </li>
+      </ul>
+    </nav>
 
-          <li class="navbar-item">
-            <a href="#author" class="navbar-link" data-nav-link>Autor</a>
-          </li>
+    <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+      <ion-icon name="menu-outline" aria-hidden="true" class="open"></ion-icon>
 
-          <li class="navbar-item">
-            <a href="#achievements" class="navbar-link" data-nav-link>Bibliografia</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#contact" class="navbar-link" data-nav-link>Contacto</a>
-          </li>
-
-        </ul>
-      </nav>
-
-      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
-        <ion-icon name="menu-outline" aria-hidden="true" class="open"></ion-icon>
-
-        <ion-icon name="close-outline" aria-hidden="true" class="close"></ion-icon>
-      </button>
-
-    </div>
-  </header>
+      <ion-icon
+        name="close-outline"
+        aria-hidden="true"
+        class="close"
+      ></ion-icon>
+    </button>
+  </div>
+</header>
 
 
-  <main>
-    <article>
-
-              <!-- 
+    <main>
+      <article>
+        <!-- 
         - #HERO
       -->
 
-      <section class="section hero" id="home" aria-label="home">
-        <div class="container">
+<section class="section hero" id="home" aria-label="home">
+  <div class="container">
+    <div class="hero-content">
+      <p class="section-subtitle">Marketing Digital & Comunicaciones</p>
 
-          <div class="hero-content">
+      <h1 class="h1 hero-title">Shantall Zarai Ascue Valdez</h1>
 
-            <p class="section-subtitle">Chief Marketing Officer en PublicAdis</p>
+      <p class="section-text">
+        Especialista en Marketing Digital | Content Creator | Community Manager
+        <br />
+        Co-Fundadora de PublicAdis | Comunicadora Estratégica
+      </p>
 
-            <h1 class="h1 hero-title">Shantall Zarai Ascue Valdez.</h1>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">Contáctame</a>
+        <a href="#portfolio" class="btn btn-secondary">Ver Portfolio</a>
+      </div>
+    </div>
 
-            <p class="section-text">
-              Especialista en Marketing Digital y Co-Fundadora de Adis. <br>
-              Ayudo a las marcas a comunicar su mensaje de manera más efectiva.
+    <div class="hero-banner has-before">
+      <img
+        src="./assets/images/shantall-profile.png"
+        width="431"
+        height="596"
+        alt="Shantall Zarai - Marketing Digital Specialist"
+        class="w-100"
+      />
+    </div>
+  </div>
+</section>
+
+        <section class="section about" id="about">
+  <div class="container">
+    <h2 class="h2 section-title has-underline">
+      Sobre Shantall Zarai
+      <span class="span has-before"></span>
+    </h2>
+    <p class="section-text">
+      Shantall Zarai es una especialista en marketing digital con más de 10 años
+      de experiencia en la industria. Co-fundadora de Adis, ha trabajado con
+      numerosas empresas para mejorar su presencia en línea y aumentar sus
+      conversiones.
+    </p>
+    <p class="section-text">
+      Con habilidades en creación de contenido, SEO, SEM, y gestión de campañas
+      publicitarias, Shantall ha demostrado ser una líder en su campo. Su pasión
+      por la comunicación y el marketing la ha llevado a obtener múltiples
+      certificaciones y reconocimientos.
+    </p>
+  </div>
+</section>
+        <section class="section chapters" id="chapters">
+    <div class="container">
+  
+      <p class="section-subtitle">Áreas de Conocimiento</p>
+  
+      <h2 class="h2 section-title has-underline">
+        Explora mi experiencia
+        <span class="span has-before"></span>
+      </h2>
+  
+      <ul class="grid-list">
+  
+        <li>
+          <div class="chapter-card">
+  
+            <p class="card-subtitle">01</p>
+  
+            <h3 class="h3 card-title">Marketing Digital</h3>
+  
+            <p class="card-text">
+              Estrategias digitales integrales que abarcan SEO, SEM, redes sociales, email marketing y análisis de datos para impulsar el crecimiento online.
             </p>
-
+  
           </div>
-
-          <div class="hero-banner has-before">
-            <img src="./assets/images/hero-banner.png" width="431" height="596"
-              alt="things i never said, a novel by claudia wilson" class="w-100">
-
-            <button class="play-btn" aria-label="play video">
-              <ion-icon name="play-outline" aria-hidden="true"></ion-icon>
-            </button>
+        </li>
+  
+        <li>
+          <div class="chapter-card">
+  
+            <p class="card-subtitle">02</p>
+  
+            <h3 class="h3 card-title">Creación de Contenido</h3>
+  
+            <p class="card-text">
+              Contenido atractivo y de alta calidad que incluye redacción creativa, diseño gráfico, producción audiovisual y gestión de redes sociales.
+            </p>
+  
           </div>
-
-        </div>
-      </section>
-              <!-- 
-        - #BENEFITS
-      -->
-
-      <section class="section benefits" id="benefits" aria-label="benefits">
-        <div class="container">
-
-          <div class="grid-list">
-
-            <li class="benefits-content">
-              <h2 class="h2 section-title">What you'll achieve by this book</h2>
-
-              <p class="section-text">Lorem ipsum dolor sit amet, consectetuer laoreet dolore magna.</p>
-            </li>
-
-            <li>
-              <div class="benefits-card has-before has-after">
-
-                <div class="card-icon">
-                  <img src="./assets/images/benefits-1.svg" width="40" height="40" loading="lazy" alt="Experience">
-                </div>
-
-                <h3 class="h3 card-title">Experience</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ex? Voluptas minus quis
-                  aspernatur corporis.
-                </p>
-
-                <a href="#" class="btn-link">
-                  <span class="span">Read more</span>
-
-                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="benefits-card has-before has-after">
-
-                <div class="card-icon">
-                  <img src="./assets/images/benefits-2.svg" width="40" height="40" loading="lazy" alt="Motivation">
-                </div>
-
-                <h3 class="h3 card-title">Motivation</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ex? Voluptas minus quis
-                  aspernatur corporis.
-                </p>
-
-                <a href="#" class="btn-link">
-                  <span class="span">Read more</span>
-
-                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="benefits-card has-before has-after">
-
-                <div class="card-icon">
-                  <img src="./assets/images/benefits-3.svg" width="40" height="40" loading="lazy" alt="Goals">
-                </div>
-
-                <h3 class="h3 card-title">Goals</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ex? Voluptas minus quis
-                  aspernatur corporis.
-                </p>
-
-                <a href="#" class="btn-link">
-                  <span class="span">Read more</span>
-
-                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="benefits-card has-before has-after">
-
-                <div class="card-icon">
-                  <img src="./assets/images/benefits-4.svg" width="40" height="40" loading="lazy" alt="Vision">
-                </div>
-
-                <h3 class="h3 card-title">Vision</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ex? Voluptas minus quis
-                  aspernatur corporis.
-                </p>
-
-                <a href="#" class="btn-link">
-                  <span class="span">Read more</span>
-
-                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="benefits-card has-before has-after">
-
-                <div class="card-icon">
-                  <img src="./assets/images/benefits-5.svg" width="40" height="40" loading="lazy" alt="Mission">
-                </div>
-
-                <h3 class="h3 card-title">Mission</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ex? Voluptas minus quis
-                  aspernatur corporis.
-                </p>
-
-                <a href="#" class="btn-link">
-                  <span class="span">Read more</span>
-
-                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="benefits-card has-before has-after">
-
-                <div class="card-icon">
-                  <img src="./assets/images/benefits-6.svg" width="40" height="40" loading="lazy" alt="Strategy">
-                </div>
-
-                <h3 class="h3 card-title">Strategy</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ex? Voluptas minus quis
-                  aspernatur corporis.
-                </p>
-
-                <a href="#" class="btn-link">
-                  <span class="span">Read more</span>
-
-                  <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
-
-              </div>
-            </li>
-
+        </li>
+  
+        <li>
+          <div class="chapter-card">
+  
+            <p class="card-subtitle">03</p>
+  
+            <h3 class="h3 card-title">Comunicación Estratégica</h3>
+  
+            <p class="card-text">
+              Planificación y ejecución de estrategias de comunicación efectivas para construir una imagen de marca sólida y alcanzar los objetivos de comunicación.
+            </p>
+  
           </div>
-
-        </div>
-      </section>
-              <!-- 
-        - #CHAPTERS
-      -->
-
-      <section class="section chapters" id="chapters">
-        <div class="container">
-
-          <p class="section-subtitle">Chapters</p>
-
-          <h2 class="h2 section-title has-underline">
-            Chapters we've covered
+        </li>
+  
+        <li>
+          <div class="chapter-card">
+  
+            <p class="card-subtitle">04</p>
+  
+            <h3 class="h3 card-title">Relaciones Públicas</h3>
+  
+            <p class="card-text">
+              Gestión de relaciones con medios de comunicación, líderes de opinión y stakeholders clave para construir una imagen positiva y generar confianza.
+            </p>
+  
+          </div>
+        </li>
+  
+        <li>
+          <div class="chapter-card">
+  
+            <p class="card-subtitle">05</p>
+  
+            <h3 class="h3 card-title">Marketing de Contenidos</h3>
+  
+            <p class="card-text">
+              Creación y distribución de contenido relevante y valioso para atraer y fidelizar a la audiencia, generando leads y conversiones.
+            </p>
+  
+          </div>
+        </li>
+  
+        <li>
+          <div class="chapter-card">
+  
+            <p class="card-subtitle">06</p>
+  
+            <h3 class="h3 card-title">Social Media Marketing</h3>
+  
+            <p class="card-text">
+              Gestión de redes sociales, creación de comunidades online y desarrollo de estrategias de social media para aumentar la visibilidad y el engagement.
+            </p>
+  
+          </div>
+        </li>
+  
+      </ul>
+  
+    </div>
+  </section>
+        <section class="section skills" id="skills">
+    <div class="container">
+        <h2 class="h2 section-title has-underline">
+            Áreas de Especialización
             <span class="span has-before"></span>
-          </h2>
-
-          <ul class="grid-list">
-
+        </h2>
+        <ul class="grid-list">
             <li>
-              <div class="chapter-card">
+                <div class="skills-card">
+                    <div class="card-icon"> <i class="fas fa-chart-line"></i> </div>
+                    <h3 class="h3 card-title">Marketing Digital</h3>
+                    <p class="card-text">
+                        Estrategias SEM/SEO, análisis de datos, gestión de campañas
+                        publicitarias, optimización de conversión, email marketing, marketing de contenidos,  growth hacking.
+                    </p>
+                    <div class="skills-progress">
+                        <div class="progress-bar" style="width: 95%;"></div> </div>
+                </div>
+            </li>
+            <li>
+                <div class="skills-card">
+                   <div class="card-icon"> <i class="fas fa-pen-nib"></i> </div>
+                    <h3 class="h3 card-title">Creación de Contenido</h3>
+                    <p class="card-text">
+                        Producción audiovisual, diseño gráfico, copywriting, gestión de
+                        redes sociales, storytelling,  redacción creativa, podcasting.
+                    </p>
+                     <div class="skills-progress">
+                        <div class="progress-bar" style="width: 90%;"></div> </div>
+                </div>
+            </li>
+            <li>
+                <div class="skills-card">
+                    <div class="card-icon"> <i class="fas fa-code"></i> </div>
+                    <h3 class="h3 card-title">Desarrollo Web</h3>
+                    <p class="card-text">
+                        HTML, CSS, JavaScript, frameworks (React, Angular), diseño responsive,  UX/UI, testing.
+                    </p>
+                     <div class="skills-progress">
+                        <div class="progress-bar" style="width: 80%;"></div> </div>
+                </div>
+            </li>
+            <li>
+                <div class="skills-card">
+                    <div class="card-icon"> <i class="fas fa-bullhorn"></i> </div>
+                    <h3 class="h3 card-title">Comunicación</h3>
+                    <p class="card-text">
+                        Comunicación interpersonal, comunicación escrita, oratoria, negociación,  presentaciones efectivas,  public speaking.
+                    </p>
+                     <div class="skills-progress">
+                        <div class="progress-bar" style="width: 85%;"></div> </div>
+                </div>
+            </li>
+            <li>
+                <div class="skills-card">
+                   <div class="card-icon"> <i class="fas fa-lightbulb"></i> </div>
+                    <h3 class="h3 card-title">Pensamiento Estratégico</h3>
+                    <p class="card-text">
+                        Análisis de problemas, resolución de problemas, pensamiento crítico,  planificación estratégica,  innovación,  creatividad.
+                    </p>
+                     <div class="skills-progress">
+                        <div class="progress-bar" style="width: 92%;"></div> </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+        <section class="section services" id="services">
+  <div class="container">
+      <p class="section-subtitle">Servicios</p>
+      <h2 class="h2 section-title has-underline">
+          Servicios Profesionales
+          <span class="span has-before"></span>
+      </h2>
 
-                <p class="card-subtitle">Chapter 01</p>
-
-                <h3 class="h3 card-title">Getting started</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima
-                  deleniti.
-                </p>
-
+      <ul class="grid-list">
+          <li>
+              <div class="service-card">
+                  <div class="card-icon"> <i class="fas fa-chart-line"></i> </div>
+                  <h3 class="h3 card-title">Estrategia Digital</h3>
+                  <ul class="service-list">
+                      <li>Análisis de mercado y competencia</li>
+                      <li>Planificación de campañas</li>
+                      <li>KPIs y métricas de rendimiento</li>
+                      <li>Optimización de conversión</li>
+                      <li>Email marketing</li>
+                      <li>Growth Hacking</li>
+                  </ul>
+                  <a href="#contact" class="btn btn-primary">Consultar</a>
               </div>
+          </li>
+          <li>
+              <div class="service-card">
+                  <div class="card-icon"> <i class="fas fa-bullhorn"></i> </div>
+                  <h3 class="h3 card-title">Marketing de Contenido</h3>
+                  <ul class="service-list">
+                      <li>Creación de contenido atractivo</li>
+                      <li>Blog y artículos</li>
+                      <li>Contenido para redes sociales</li>
+                      <li>Infografías y videos</li>
+                      <li>Storytelling</li>
+                  </ul>
+                  <a href="#contact" class="btn btn-primary">Consultar</a>
+              </div>
+          </li>
+          <li>
+              <div class="service-card">
+                  <div class="card-icon"> <i class="fas fa-camera"></i> </div>
+                  <h3 class="h3 card-title">Producción Audiovisual</h3>
+                  <ul class="service-list">
+                      <li>Videos promocionales</li>
+                      <li>Producción de podcasts</li>
+                      <li>Fotografía de productos</li>
+                      <li>Edición de video y audio</li>
+                  </ul>
+                  <a href="#contact" class="btn btn-primary">Consultar</a>
+              </div>
+          </li>
+          <li>
+              <div class="service-card">
+                 <div class="card-icon"> <i class="fas fa-paint-brush"></i> </div>
+                  <h3 class="h3 card-title">Diseño Gráfico</h3>
+                  <ul class="service-list">
+                      <li>Diseño de logos</li>
+                      <li>Identidad de marca</li>
+                      <li>Material publicitario</li>
+                      <li>Diseño web (UI/UX)</li>
+                  </ul>
+                  <a href="#contact" class="btn btn-primary">Consultar</a>
+              </div>
+          </li>
+          <li>
+              <div class="service-card">
+                  <div class="card-icon"> <i class="fas fa-users"></i> </div>
+                  <h3 class="h3 card-title">Gestión de Redes Sociales</h3>
+                  <ul class="service-list">
+                      <li>Creación y gestión de perfiles</li>
+                      <li>Planificación de contenido</li>
+                      <li>Community management</li>
+                      <li>Publicidad en redes sociales</li>
+                      <li>Análisis de métricas</li>
+                  </ul>
+                  <a href="#contact" class="btn btn-primary">Consultar</a>
+              </div>
+          </li>
+      </ul>
+  </div>
+</section>
+        <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="h2 section-title has-underline">
+        Proyectos Destacados
+        <span class="span has-before"></span>
+      </h2>
+      <ul class="grid-list">
+        <li>
+          <div class="project-card">
+            <h3 class="h3 card-title">Campaña de Marketing Digital - Empresa X</h3>
+            <p class="card-text">
+              Desarrollo e implementación de una estrategia integral de marketing digital para la Empresa X, 
+              logrando un aumento del 20% en las conversiones y un 15% en el tráfico web en 3 meses.
+            </p>
+            <img src="./assets/images/projects/empresa-x-campaign.jpg" alt="Campaña de Marketing Digital - Empresa X"
+              class="project-img" />
+          </div>
+        </li>
+        <li>
+          <div class="project-card">
+            <h3 class="h3 card-title">Gestión de Redes Sociales - ONG "Ayudando a Crecer"</h3>
+            <p class="card-text">
+              Gestión de las redes sociales de la ONG "Ayudando a Crecer", incluyendo la creación de contenido, 
+              la interacción con la comunidad y el análisis de métricas. Se logró un aumento del 30% en el número de seguidores 
+              y un 20% en el engagement en 6 meses.
+            </p>
+            <img src="./assets/images/projects/ong-social-media.jpg" alt="Gestión de Redes Sociales - ONG Ayudando a Crecer"
+              class="project-img" />
+          </div>
+        </li>
+        <li>
+          <div class="project-card">
+            <h3 class="h3 card-title">Relaciones Públicas - Lanzamiento de producto "Innovación Y"</h3>
+            <p class="card-text">
+              Planificación y ejecución de la estrategia de relaciones públicas para el lanzamiento del producto "Innovación Y", 
+              generando cobertura en medios de comunicación y creando una estrategia de comunicación efectiva para el público objetivo.
+            </p>
+            <img src="./assets/images/projects/product-launch-pr.jpg"
+              alt="Relaciones Públicas - Lanzamiento de producto Innovación Y" class="project-img" />
+          </div>
+        </li>
+        <li>
+          <div class="project-card">
+            <h3 class="h3 card-title">Producción de contenido - Campaña de concientización "Z"</h3>
+            <p class="card-text">
+              Creación de contenido multimedia para la campaña de concientización "Z", incluyendo videos, artículos, 
+              infografías y publicaciones en redes sociales. Se logró un alcance de más de 100,000 personas y un aumento del 15% 
+              en el conocimiento sobre el tema de la campaña.
+            </p>
+            <img src="./assets/images/projects/content-creation-campaign.jpg"
+              alt="Producción de contenido - Campaña de concientización Z" class="project-img" />
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+        <section class="section testimonials" id="testimonials">
+    <div class="container">
+        <h2 class="h2 section-title has-underline">
+            Testimonios
+            <span class="span has-before"></span>
+        </h2>
+        <ul class="grid-list">
+            <li>
+                <div class="testimonial-card">
+                    <p class="card-text">
+                        "Shantall es una profesional increíble. Su conocimiento en marketing
+                        digital y su capacidad para ejecutar estrategias efectivas han sido
+                        fundamentales para el éxito de nuestras campañas."
+                    </p>
+                    <div class="card-meta">
+                        <p class="card-author">- Cliente Satisfecho, Empresa X</p>
+                        <div class="card-rating">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="testimonial-card">
+                    <p class="card-text">
+                        "Su creatividad y atención al detalle son excepcionales.  Shantall siempre encuentra
+                        la manera de superar nuestras expectativas y entregar resultados sobresalientes."
+                    </p>
+                    <div class="card-meta">
+                        <p class="card-author">- María García, Directora de Marketing</p>
+                        <div class="card-rating">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="far fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="testimonial-card">
+                    <p class="card-text">
+                        "Recomiendo ampliamente a Shantall para cualquier empresa que busque mejorar su presencia en
+                        línea. Su profesionalismo y dedicación son incomparables."
+                    </p>
+                    <div class="card-meta">
+                        <p class="card-author">- Carlos López, Fundador de CreativaStudio</p>
+                        <div class="card-rating">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="testimonial-card">
+                    <p class="card-text">
+                        "Shantall ha sido una pieza clave en el crecimiento de nuestra marca.  Su estrategia de
+                        marketing digital ha generado un aumento significativo en nuestras ventas y
+                        reconocimiento de marca."
+                    </p>
+                    <div class="card-meta">
+                        <p class="card-author">- Ana Rodríguez, Gerente de Ventas</p>
+                        <div class="card-rating">
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="fas fa-star"></span>
+                            <span class="far fa-star"></span>
+                        </div>
+                    </div>
+                </div>
             </li>
 
-            <li>
-              <div class="chapter-card">
+        </ul>
+    </div>
+</section>
+        <section class="section experience" id="experience">
+  <div class="container">
+    <h2 class="h2 section-title has-underline">
+      Mi Experiencia Profesional
+      <span class="span has-before"></span>
+    </h2>
 
-                <p class="card-subtitle">Chapter 02</p>
+    <ul class="grid-list">
 
-                <h3 class="h3 card-title">The language of gossip box</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima
-                  deleniti.
-                </p>
-
-              </div>
+      <li>
+        <div class="experience-card">
+          <p class="card-subtitle">2022 - Presente</p>
+          <h3 class="h3 card-title">Chief Marketing Officer - PublicAdis</h3>
+          <ul class="card-list">
+            <li class="card-item">
+              <p class="card-text">
+                Liderazgo en el desarrollo e implementación de estrategias de marketing digital multiplataforma,
+                alcanzando un incremento del 150% en el *engagement* y un 200% en las conversiones.
+              </p>
             </li>
-
-            <li>
-              <div class="chapter-card">
-
-                <p class="card-subtitle">Chapter 03</p>
-
-                <h3 class="h3 card-title">The rise of trend Design</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima
-                  deleniti.
-                </p>
-
-              </div>
+            <li class="card-item">
+              <p class="card-text">
+                Gestión de equipos de alto rendimiento y desarrollo de estrategias de contenido exitosas
+                para más de 20 clientes de diversos sectores.
+              </p>
             </li>
-
-            <li>
-              <div class="chapter-card">
-
-                <p class="card-subtitle">Chapter 04</p>
-
-                <h3 class="h3 card-title">The rise of trend Design</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima
-                  deleniti.
-                </p>
-
-              </div>
+            <li class="card-item">
+              <p class="card-text">
+                Implementación de metodologías ágiles y herramientas de análisis de datos para la optimización
+                continua de las campañas y la mejora del ROI.
+              </p>
             </li>
-
-            <li>
-              <div class="chapter-card">
-
-                <p class="card-subtitle">Chapter 05</p>
-
-                <h3 class="h3 card-title">The rise of trend Design</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima
-                  deleniti.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="chapter-card">
-
-                <p class="card-subtitle">Chapter 06</p>
-
-                <h3 class="h3 card-title">The rise of trend Design</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima
-                  deleniti.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="chapter-card">
-
-                <p class="card-subtitle">Chapter 07</p>
-
-                <h3 class="h3 card-title">Literary Jatra</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima
-                  deleniti.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="chapter-card">
-
-                <p class="card-subtitle">Chapter 08</p>
-
-                <h3 class="h3 card-title">Non-technical literature</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima
-                  deleniti.
-                </p>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="chapter-card">
-
-                <p class="card-subtitle">Chapter 09</p>
-
-                <h3 class="h3 card-title">Where is the author?</h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quod sit amet aspernatur minima
-                  deleniti.
-                </p>
-
-              </div>
-            </li>
-
           </ul>
+        </div>
+      </li>
+
+      <li>
+        <div class="experience-card">
+          <p class="card-subtitle">2020 - 2022</p>
+          <h3 class="h3 card-title">Marketing Manager - Agencia Digital Perú</h3>
+          <ul class="card-list">
+            <li class="card-item">
+              <p class="card-text">
+                Gestión integral de proyectos de marketing digital, desde la planificación estratégica hasta la ejecución
+                y el análisis de resultados.
+              </p>
+            </li>
+            <li class="card-item">
+              <p class="card-text">
+                Desarrollo y gestión de campañas de publicidad online (PPC y redes sociales), optimizando el ROI
+                y maximizando el alcance.
+              </p>
+            </li>
+            <li class="card-item">
+              <p class="card-text">
+                Liderazgo y coordinación de equipos creativos, garantizando la entrega de proyectos de alta calidad
+                y cumpliendo con los plazos establecidos.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <li>
+        <div class="experience-card">
+          <p class="card-subtitle">2018 - 2020</p>
+          <h3 class="h3 card-title">Asistente de Marketing - Empresa de Consumo Masivo</h3>
+          <ul class="card-list">
+            <li class="card-item">
+              <p class="card-text">
+                Apoyo en la implementación de estrategias de marketing y comunicación, incluyendo la creación de contenido,
+                la gestión de redes sociales y la organización de eventos.
+              </p>
+            </li>
+            <li class="card-item">
+              <p class="card-text">
+                Análisis de datos de mercado y competencia, identificación de oportunidades y elaboración de informes
+                para la toma de decisiones.
+              </p>
+            </li>
+            <li class="card-item">
+              <p class="card-text">
+                Participación en el desarrollo y ejecución de campañas de lanzamiento de productos, contribuyendo al
+                aumento de la visibilidad de marca y las ventas.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
+</section>
+        <section class="section education" id="education">
+  <div class="container">
+    <p class="section-subtitle">Formación</p>
+    <h2 class="h2 section-title has-underline">
+      Educación y Certificaciones
+      <span class="span has-before"></span>
+    </h2>
+
+    <div class="education-wrapper">
+      <div class="education-timeline">
+        <div class="timeline-item">
+          <span class="year">2024</span>
+          <div class="content">
+            <h3>Licenciatura en Ciencias de la Comunicación</h3>
+            <p>Universidad Nacional de San Antonio Abad del Cusco (UNSAAC)</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2020</span>
+          <div class="content">
+            <h3>Curso de Community Manager Profesional</h3>
+            <p>EducaciónIT</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2019</span>
+          <div class="content">
+            <h3>Curso de Marketing Digital para Emprendedores</h3>
+            <p>Google Actívate</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="year">2017</span>
+          <div class="content">
+            <h3>Programa de Liderazgo Juvenil</h3>
+            <p>Municipalidad del Cusco</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="certifications-grid">
+        <div class="cert-card">
+          <img src="./assets/images/certs/google-ads.png" alt="Google Ads" />
+          <h4>Certificación en Google Ads</h4>
+          <p>Google</p>
+        </div>
+        <div class="cert-card">
+          <img src="./assets/images/certs/google-analytics.png" alt="Google Analytics" />
+          <h4>Certificación en Google Analytics</h4>
+          <p>Google</p>
+        </div>
+        <div class="cert-card">
+          <img src="./assets/images/certs/hubspot-inbound-marketing.png" alt="HubSpot Inbound Marketing" />
+          <h4>Certificación en Inbound Marketing</h4>
+          <p>HubSpot</p>
+        </div>
+        <div class="cert-card">
+          <img src="./assets/images/certs/meta-certified-digital-marketing-associate.png"
+            alt="Meta Certified Digital Marketing Associate" />
+          <h4>Certificación en Meta Certified Digital Marketing Associate</h4>
+          <p>Meta</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        <section class="section certifications" id="certifications">
+    <div class="container">
+      <h2 class="h2 section-title has-underline">
+        Certificaciones
+        <span class="span has-before"></span>
+      </h2>
+      <ul class="grid-list">
+        <li>
+          <div class="cert-card">
+            <img src="./assets/images/certs/google-ads.png" alt="Google Ads" />
+            <h4>Certificación en Google Ads</h4>
+            <p>Google</p>
+          </div>
+        </li>
+        <li>
+          <div class="cert-card">
+            <img src="./assets/images/certs/google-analytics.png" alt="Google Analytics" />
+            <h4>Certificación en Google Analytics</h4>
+            <p>Google</p>
+          </div>
+        </li>
+        <li>
+          <div class="cert-card">
+            <img src="./assets/images/certs/hubspot-inbound-marketing.png" alt="HubSpot Inbound Marketing" />
+            <h4>Certificación en Inbound Marketing</h4>
+            <p>HubSpot</p>
+          </div>
+        </li>
+        <li>
+          <div class="cert-card">
+            <img src="./assets/images/certs/meta-certified-digital-marketing-associate.png"
+              alt="Meta Certified Digital Marketing Associate" />
+            <h4>Certificación en Meta Certified Digital Marketing Associate</h4>
+            <p>Meta</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+        <section class="section benefits" id="benefits" aria-label="benefits">
+  <div class="container">
+
+    <div class="grid-list">
+
+      <li class="benefits-content">
+        <h2 class="h2 section-title">¿Qué lograrás con mis servicios?</h2>
+
+        <p class="section-text">
+          Te ayudaré a alcanzar tus objetivos de marketing y comunicación, impulsando el crecimiento de tu negocio o proyecto.
+        </p>
+      </li>
+
+      <li>
+        <div class="benefits-card has-before has-after">
+
+          <div class="card-icon">
+            <img src="./assets/images/benefits/crecimiento.svg" width="40" height="40" loading="lazy"
+              alt="Crecimiento">
+          </div>
+
+          <h3 class="h3 card-title">Crecimiento</h3>
+
+          <p class="card-text">
+            Aumenta tu visibilidad online, atrae a más clientes potenciales y genera un mayor impacto con estrategias
+            de marketing digital efectivas.
+          </p>
+
+          <a href="#contact" class="btn-link">
+            <span class="span">Contáctame</span>
+            <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
 
         </div>
-      </section>
+      </li>
+
+      <li>
+        <div class="benefits-card has-before has-after">
+          <div class="card-icon">
+            <img src="./assets/images/benefits/engagement.svg" width="40" height="40" loading="lazy"
+              alt="Engagement">
+          </div>
+          <h3 class="h3 card-title">Engagement</h3>
+          <p class="card-text">
+            Conecta con tu audiencia a través de contenido atractivo y relevante, construyendo relaciones sólidas y
+            aumentando la fidelización.
+          </p>
+          <a href="#contact" class="btn-link">
+            <span class="span">Contáctame</span>
+            <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </li>
+
+      <li>
+        <div class="benefits-card has-before has-after">
+          <div class="card-icon">
+            <img src="./assets/images/benefits/resultados.svg" width="40" height="40" loading="lazy"
+              alt="Resultados">
+          </div>
+          <h3 class="h3 card-title">Resultados</h3>
+          <p class="card-text">
+            Obtén resultados medibles y significativos con estrategias de marketing y comunicación orientadas a
+            alcanzar tus objetivos de negocio.
+          </p>
+          <a href="#contact" class="btn-link">
+            <span class="span">Contáctame</span>
+            <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </li>
+
+      <li>
+        <div class="benefits-card has-before has-after">
+          <div class="card-icon">
+            <img src="./assets/images/benefits/posicionamiento.svg" width="40" height="40" loading="lazy"
+              alt="Posicionamiento">
+          </div>
+          <h3 class="h3 card-title">Posicionamiento</h3>
+          <p class="card-text">
+            Destaca frente a tu competencia y construye una imagen de marca sólida y reconocida en el mercado.
+          </p>
+          <a href="#contact" class="btn-link">
+            <span class="span">Contáctame</span>
+            <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </li>
+
+      <li>
+        <div class="benefits-card has-before has-after">
+          <div class="card-icon">
+            <img src="./assets/images/benefits/creatividad.svg" width="40" height="40" loading="lazy"
+              alt="Creatividad">
+          </div>
+          <h3 class="h3 card-title">Creatividad</h3>
+          <p class="card-text">
+            Desarrolla campañas de marketing y comunicación innovadoras y creativas que capturen la atención de tu
+            audiencia y generen un impacto duradero.
+          </p>
+          <a href="#contact" class="btn-link">
+            <span class="span">Contáctame</span>
+            <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </li>
+
+      <li>
+        <div class="benefits-card has-before has-after">
+          <div class="card-icon">
+            <img src="./assets/images/benefits/planificacion.svg" width="40" height="40" loading="lazy"
+              alt="Planificación">
+          </div>
+          <h3 class="h3 card-title">Planificación</h3>
+          <p class="card-text">
+            Define objetivos claros y establece un plan estratégico de marketing y comunicación para alcanzar tus
+            metas de negocio de manera efectiva.
+          </p>
+          <a href="#contact" class="btn-link">
+            <span class="span">Contáctame</span>
+            <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </li>
+    </div>
+  </div>
+</section>
               <!-- 
         - #PREVIEW
       -->
@@ -446,10 +872,10 @@
       <section class="section preview" aria-label="preview">
         <div class="container">
 
-          <p class="section-subtitle">Chapter Preview</p>
+          <p class="section-subtitle">Project Preview</p>
 
           <h2 class="h2 section-title has-underline">
-            Read some chapter free
+            Proyectos trabajados
             <span class="span has-before"></span>
           </h2>
 
@@ -457,45 +883,45 @@
 
             <li>
               <div class="tab-card active" data-tab-card>
-                <h3 class="h3 tab-text">Chapter 1</h3>
+                <h3 class="h3 tab-text">Project 1</h3>
 
-                <img src="./assets/images/preview-1.png" width="820" height="630" loading="lazy" alt="Chapter 1"
+                <img src="./assets/images/preview-1.png" width="820" height="630" loading="lazy" alt="Project 1"
                   class="w-100">
               </div>
             </li>
 
             <li>
               <div class="tab-card" data-tab-card>
-                <h3 class="h3 tab-text">Chapter 2</h3>
+                <h3 class="h3 tab-text">Project 2</h3>
 
-                <img src="./assets/images/preview-2.png" width="820" height="630" loading="lazy" alt="Chapter 2"
+                <img src="./assets/images/preview-2.png" width="820" height="630" loading="lazy" alt="Project 2"
                   class="w-100">
               </div>
             </li>
 
             <li>
               <div class="tab-card" data-tab-card>
-                <h3 class="h3 tab-text">Chapter 3</h3>
+                <h3 class="h3 tab-text">Project 3</h3>
 
-                <img src="./assets/images/preview-3.png" width="820" height="630" loading="lazy" alt="Chapter 3"
+                <img src="./assets/images/preview-3.png" width="820" height="630" loading="lazy" alt="Project 3"
                   class="w-100">
               </div>
             </li>
 
             <li>
               <div class="tab-card" data-tab-card>
-                <h3 class="h3 tab-text">Chapter 4</h3>
+                <h3 class="h3 tab-text">Project 4</h3>
 
-                <img src="./assets/images/preview-4.png" width="820" height="630" loading="lazy" alt="Chapter 4"
+                <img src="./assets/images/preview-4.png" width="820" height="630" loading="lazy" alt="Project 4"
                   class="w-100">
               </div>
             </li>
 
             <li>
               <div class="tab-card" data-tab-card>
-                <h3 class="h3 tab-text">Chapter 5</h3>
+                <h3 class="h3 tab-text">Project 5</h3>
 
-                <img src="./assets/images/preview-5.png" width="820" height="630" loading="lazy" alt="Chapter 5"
+                <img src="./assets/images/preview-5.png" width="820" height="630" loading="lazy" alt="Project 5"
                   class="w-100">
               </div>
             </li>
@@ -504,122 +930,120 @@
 
         </div>
       </section>
-              <!-- 
-        - #PRICING
-      -->
+        <section class="section pricing" id="pricing" aria-label="pricing">
+  <div class="container">
 
-      <section class="section pricing" id="pricing" aria-label="pricing">
-        <div class="container">
+    <p class="section-subtitle">Servicios</p>
 
-          <p class="section-subtitle">Pricing</p>
+    <h2 class="h2 section-title has-underline">
+      ¿Qué puedo hacer por ti?
+      <span class="span has-before"></span>
+    </h2>
 
-          <h2 class="h2 section-title has-underline">
-            Pricing based on their version
-            <span class="span has-before"></span>
-          </h2>
+    <ul class="grid-list">
 
-          <ul class="grid-list">
+      <li>
+        <div class="pricing-card">
 
-            <li>
-              <div class="pricing-card">
+          <h3 class="h3 card-title">Marketing Digital</h3>
 
-                <h3 class="h3 card-title">E-Book</h3>
+          <ul class="pricing-card-list">
 
-                <data class="price" value="5">$05</data>
-
-                <ul class="pricing-card-list">
-
-                  <li class="card-item">
-                    <p class="card-text">Complete Book</p>
-                  </li>
-
-                  <li class="card-item">
-                    <p class="card-text">PDF and EPUB</p>
-                  </li>
-
-                  <li class="card-item">
-                    <p class="card-text">Hardcover Book</p>
-                  </li>
-
-                  <li class="card-item">
-                    <p class="card-text">Access to Downloads</p>
-                  </li>
-
-                </ul>
-
-                <button class="btn btn-secondary">BUY NOW</button>
-
-              </div>
+            <li class="card-item">
+              <p class="card-text">Desarrollo de estrategias SEM/SEO</p>
             </li>
 
-            <li>
-              <div class="pricing-card bundle">
-
-                <h3 class="h3 card-title">Bundle</h3>
-
-                <data class="price" value="15">$15</data>
-
-                <ul class="pricing-card-list">
-
-                  <li class="card-item">
-                    <p class="card-text">Complete Book</p>
-                  </li>
-
-                  <li class="card-item">
-                    <p class="card-text">PDF and EPUB</p>
-                  </li>
-
-                  <li class="card-item">
-                    <p class="card-text">Hardcover Book</p>
-                  </li>
-
-                  <li class="card-item">
-                    <p class="card-text">Access to Downloads</p>
-                  </li>
-
-                </ul>
-
-                <button class="btn btn-primary">BUY NOW</button>
-
-              </div>
+            <li class="card-item">
+              <p class="card-text">Gestión y optimización de campañas publicitarias</p>
             </li>
 
-            <li>
-              <div class="pricing-card">
+            <li class="card-item">
+              <p class="card-text">Análisis de datos y métricas de rendimiento</p>
+            </li>
 
-                <h3 class="h3 card-title">Hardcover</h3>
+            <li class="card-item">
+              <p class="card-text">Email marketing y automatización</p>
+            </li>
 
-                <data class="price" value="10">$10</data>
-
-                <ul class="pricing-card-list">
-
-                  <li class="card-item">
-                    <p class="card-text">Complete Book</p>
-                  </li>
-
-                  <li class="card-item">
-                    <p class="card-text">PDF and EPUB</p>
-                  </li>
-
-                  <li class="card-item">
-                    <p class="card-text">Hardcover Book</p>
-                  </li>
-
-                  <li class="card-item">
-                    <p class="card-text">Access to Downloads</p>
-                  </li>
-
-                </ul>
-
-                <button class="btn btn-secondary">BUY NOW</button>
-
-              </div>
+            <li class="card-item">
+              <p class="card-text">Growth Hacking</p>
             </li>
 
           </ul>
 
+          <a href="#contact" class="btn btn-secondary">Contáctame</a>
+
         </div>
-      </section>
+      </li>
+
+      <li>
+        <div class="pricing-card">
+
+          <h3 class="h3 card-title">Creación de Contenido</h3>
+
+          <ul class="pricing-card-list">
+
+            <li class="card-item">
+              <p class="card-text">Producción audiovisual (video y podcast)</p>
+            </li>
+
+            <li class="card-item">
+              <p class="card-text">Diseño gráfico y branding</p>
+            </li>
+
+            <li class="card-item">
+              <p class="card-text">Copywriting y redacción creativa</p>
+            </li>
+
+            <li class="card-item">
+              <p class="card-text">Gestión de redes sociales</p>
+            </li>
+
+            <li class="card-item">
+              <p class="card-text">Desarrollo de storytelling</p>
+            </li>
+
+          </ul>
+
+          <a href="#contact" class="btn btn-secondary">Contáctame</a>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="pricing-card">
+
+          <h3 class="h3 card-title">Consultoría y Asesoría</h3>
+
+          <ul class="pricing-card-list">
+
+            <li class="card-item">
+              <p class="card-text">Asesoría en marketing digital</p>
+            </li>
+
+            <li class="card-item">
+              <p class="card-text">Consultoría en comunicación y estrategia</p>
+            </li>
+
+            <li class="card-item">
+              <p class="card-text">Desarrollo de planes de marketing y comunicación</p>
+            </li>
+
+            <li class="card-item">
+              <p class="card-text">Análisis de mercado y competencia</p>
+            </li>
+
+          </ul>
+
+          <a href="#contact" class="btn btn-secondary">Contáctame</a>
+
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
+</section>
               <!-- 
         - #AUTHOR
       -->
@@ -648,286 +1072,230 @@
 
         </div>
       </section>
-              <!-- 
-        - #ACHIEVEMENT
-      -->
+        <section class="section achievement" id="achievements" aria-label="achievement">
+  <div class="container">
 
-      <section class="section achievement" id="achievements" aria-label="achievement">
-        <div class="container">
+    <p class="section-subtitle">Logros</p>
 
-          <p class="section-subtitle">Achievements</p>
+    <h2 class="h2 section-title has-underline">
+      Reconocimientos y Premios
+      <span class="span has-before"></span>
+    </h2>
 
-          <h2 class="h2 section-title has-underline">
-            Honor & Awards Achieved
-            <span class="span has-before"></span>
-          </h2>
+    <ul class="grid-list">
 
-          <ul class="grid-list">
+      <li>
+        <div class="achievement-card">
 
-            <li>
-              <div class="achievement-card">
+          <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
+            <img src="./assets/images/achievements/best-campaign.jpg" width="450" height="300" loading="lazy"
+              alt="Mejor Campaña de Marketing Digital" class="img-cover">
+          </figure>
 
-                <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
-                  <img src="./assets/images/achievement-1.jpg" width="450" height="300" loading="lazy" alt="Nominated"
-                    class="img-cover">
-                </figure>
+          <div class="card-content">
 
-                <div class="card-content">
+            <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy" class="abs-img">
 
-                  <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
-                    class="abs-img">
+            <h3 class="h3 card-title">Mejor Campaña de Marketing Digital</h3>
 
-                  <h3 class="h3 card-title">Nominated</h3>
-
-                  <p class="card-text">
-                    International Thriller Writers Award for Best Novel (These Toxic Things)
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="achievement-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
-                  <img src="./assets/images/achievement-2.jpg" width="450" height="300" loading="lazy" alt="Winner"
-                    class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
-                    class="abs-img">
-
-                  <h3 class="h3 card-title">Winner</h3>
-
-                  <p class="card-text">
-                    International Thriller Writers Award for Best Novel (These Toxic Things)
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="achievement-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
-                  <img src="./assets/images/achievement-3.jpg" width="450" height="300" loading="lazy"
-                    alt="Guest of Honor" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
-                    class="abs-img">
-
-                  <h3 class="h3 card-title">Guest of Honor</h3>
-
-                  <p class="card-text">
-                    International Thriller Writers Award for Best Novel (These Toxic Things)
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="achievement-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
-                  <img src="./assets/images/achievement-4.jpg" width="450" height="300" loading="lazy" alt="Finalist"
-                    class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
-                    class="abs-img">
-
-                  <h3 class="h3 card-title">Finalist</h3>
-
-                  <p class="card-text">
-                    International Thriller Writers Award for Best Novel (These Toxic Things)
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="achievement-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
-                  <img src="./assets/images/achievement-5.jpg" width="450" height="300" loading="lazy" alt="Winner"
-                    class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
-                    class="abs-img">
-
-                  <h3 class="h3 card-title">Winner</h3>
-
-                  <p class="card-text">
-                    International Thriller Writers Award for Best Novel (These Toxic Things)
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="achievement-card">
-
-                <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
-                  <img src="./assets/images/achievement-1.jpg" width="450" height="300" loading="lazy" alt="Nominated"
-                    class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy"
-                    class="abs-img">
-
-                  <h3 class="h3 card-title">Nominated</h3>
-
-                  <p class="card-text">
-                    International Thriller Writers Award for Best Novel (These Toxic Things)
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-              <!-- 
-        - #CONTACT
-      -->
-
-      <section class="section contact" id="contact" aria-label="contact">
-        <div class="container">
-
-          <p class="section-subtitle">Contaccto</p>
-
-          <h2 class="h2 section-title has-underline">
-            Escríbeme algo...
-            <span class="span has-before"></span>
-          </h2>
-
-          <div class="wrapper">
-
-            <form action="" class="contact-form">
-
-              <input type="text" name="name" placeholder="Tu Nombre" required class="input-field">
-
-              <input type="email" name="email_address" placeholder="Tu Correo" required class="input-field">
-
-              <input type="text" name="subject" placeholder="Asunto" required class="input-field">
-
-              <textarea name="message" placeholder="Tu Mensaje" class="input-field"></textarea>
-
-              <button type="submit" class="btn btn-primary">Enviar</button>
-
-            </form>
-
-            <ul class="contact-card">
-
-              <li>
-                <p class="card-title">Dirección:</p>
-
-                <address class="address">
-                  Latam <br>
-                  Cusco, Perú
-                </address>
-              </li>
-
-              <li>
-                <p class="card-title">Celular:</p>
-
-                <a href="tel:990551461" class="card-link">+51 990 551 461</a>
-              </li>
-
-              <li>
-                <p class="card-title">Correo:</p>
-
-                <a href="mailto:ShantallZaraii@gmail.com" class="card-link">ShantallZaraii@gmail.com</a>
-              </li>
-
-              <li>
-                <p class="social-list-title h3">Mira mi contenido en mis redes sociales:</p>
-
-                <ul class="social-list">
-
-                  <li>
-                    <a href="https://facebook.com/ShantallZarai" class="social-link">
-                      <ion-icon name="logo-facebook"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="https://twitter.com/ShantallZarai" class="social-link">
-                      <ion-icon name="logo-twitter"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="https://linkedin.com/in/ShantallZarai" class="social-link">
-                      <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="https://youtube.com/ShantallZarai" class="social-link">
-                      <ion-icon name="logo-youtube"></ion-icon>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="https://wa.me/990551461" class="social-link">
-                      <ion-icon name="logo-whatsapp"></ion-icon>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://instagram.com/ShantallZarai" class="social-link">
-                      <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://pinterest.com/ShantallZarai" class="social-link">
-                      <ion-icon name="logo-pinterest"></ion-icon>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://tiktok.com/ShantallZarai" class="social-link">
-                      <ion-icon name="logo-tiktok"></ion-icon>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-
-            </ul>
+            <p class="card-text">
+              Premio a la mejor campaña de marketing digital en la categoría de "Innovación" por la campaña
+              "CuscoTech 2023".
+            </p>
 
           </div>
 
         </div>
-      </section>
+      </li>
 
-    </article>
-  </main>
+      <li>
+        <div class="achievement-card">
 
-    <!-- 
+          <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
+            <img src="./assets/images/achievements/social-media-excellence.jpg" width="450" height="300" loading="lazy"
+              alt="Excelencia en Redes Sociales" class="img-cover">
+          </figure>
+
+          <div class="card-content">
+
+            <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy" class="abs-img">
+
+            <h3 class="h3 card-title">Excelencia en Redes Sociales</h3>
+
+            <p class="card-text">
+              Reconocimiento a la excelencia en la gestión de redes sociales por el impacto y el crecimiento
+              de la comunidad online de la ONG "Ayudando a Crecer".
+            </p>
+
+          </div>
+
+        </div>
+      </li>
+
+      <li>
+        <div class="achievement-card">
+
+          <figure class="card-banner img-holder" style="--width: 450; --height: 300;">
+            <img src="./assets/images/achievements/content-marketing-award.jpg" width="450" height="300" loading="lazy"
+              alt="Premio al Mejor Contenido" class="img-cover">
+          </figure>
+
+          <div class="card-content">
+
+            <img src="./assets/images/award.svg" width="80" height="80" loading="lazy" alt="trophy" class="abs-img">
+
+            <h3 class="h3 card-title">Premio al Mejor Contenido</h3>
+
+            <p class="card-text">
+              Galardonada con el premio al mejor contenido en la categoría de "Concientización Social" por la
+              campaña "Z".
+            </p>
+
+          </div>
+
+        </div>
+      </li>
+
+    </ul>
+
+  </div>
+</section>
+        <!-- 
+        - #CONTACT
+      -->
+
+<section class="section contact" id="contact" aria-label="contact">
+  <div class="container">
+    <p class="section-subtitle">Contacto</p>
+
+    <h2 class="h2 section-title has-underline">
+      Escríbeme algo...
+      <span class="span has-before"></span>
+    </h2>
+
+    <div class="wrapper">
+      <form action="" class="contact-form">
+        <input
+          type="text"
+          name="name"
+          placeholder="Tu Nombre"
+          required
+          class="input-field"
+        />
+
+        <input
+          type="email"
+          name="email_address"
+          placeholder="Tu Correo"
+          required
+          class="input-field"
+        />
+
+        <input
+          type="text"
+          name="subject"
+          placeholder="Asunto"
+          required
+          class="input-field"
+        />
+
+        <textarea
+          name="message"
+          placeholder="Tu Mensaje"
+          class="input-field"
+        ></textarea>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+      <ul class="contact-card">
+        <li>
+          <p class="card-title">Dirección:</p>
+
+          <address class="address">
+            Latam <br />
+            Cusco, Perú
+          </address>
+        </li>
+
+        <li>
+          <p class="card-title">Celular:</p>
+
+          <a href="tel:990551461" class="card-link">+51 990 551 461</a>
+        </li>
+
+        <li>
+          <p class="card-title">Correo:</p>
+
+          <a href="mailto:ShantallZaraii@gmail.com" class="card-link"
+            >ShantallZaraii@gmail.com</a
+          >
+        </li>
+
+        <li>
+          <p class="social-list-title h3">
+            Mira mi contenido en mis redes sociales:
+          </p>
+
+          <ul class="social-list">
+            <li>
+              <a href="https://facebook.com/ShantallZarai" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com/ShantallZarai" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://linkedin.com/in/ShantallZarai"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://youtube.com/ShantallZarai" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://wa.me/990551461" class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/ShantallZarai" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://pinterest.com/ShantallZarai" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://tiktok.com/ShantallZarai" class="social-link">
+                <ion-icon name="logo-tiktok"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      </article>
+    </main>
+
+      <!-- 
     - #FOOTER
   -->
 
@@ -969,7 +1337,7 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">Contact0</a>
+            <a href="#" class="footer-link">Contacto</a>
           </li>
 
         </ul>
@@ -985,46 +1353,48 @@
     </div>
   </footer>
 
-
-
-  <!-- 
+    <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/script.js" defer></script>
 
-  <!-- 
+    <!-- 
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
-  <!-- 
+    <!-- 
     - smooth scroll script
   -->
-  <script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
         });
       });
-    });
-  </script>
+    </script>
 
-  <!-- 
+    <!-- 
     - dynamic tab content script
   -->
-  <script>
-    const tabs = document.querySelectorAll('[data-tab-card]');
-    tabs.forEach(tab => {
-      tab.addEventListener('click', () => {
-        tabs.forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
+    <script>
+      const tabs = document.querySelectorAll("[data-tab-card]");
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          tabs.forEach((t) => t.classList.remove("active"));
+          tab.classList.add("active");
+        });
       });
-    });
-  </script>
-
-</body>
-
+    </script>
+  </body>
 </html>
